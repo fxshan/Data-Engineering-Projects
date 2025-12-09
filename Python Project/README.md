@@ -1,10 +1,10 @@
+# Acquiring and Processing Information on the World's Largest Banks
+
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=py" />
+  <img src="https://skillicons.dev/icons?i=sqlite" />
 </p>
 
-# Acquiring and Processing Information on the World's Largest Banks
 ## Project Scenario:
 You have been hired as a data engineer by research organization. 
 Your boss has asked you to create a code that can be used to compile the list of the top 10 largest banks in the world ranked by market capitalization in billion USD. 
