@@ -6,7 +6,7 @@
     <img src="images/multilogos.png" alt="Projects" width="1000px">
   </a>
 
-  <h1>Data-Engineering-Projects</h1>
+  <h1>Data Engineering Projects</h1>
 </div>
 
 This repository is a collection of data engineering projects covering a variety of topics, including Python, SQL, Shell scripting, ETL, Airflow, EDW, DBA tasks, NoSQL, BI solutions, and Big Data with Hadoop and Spark.  
