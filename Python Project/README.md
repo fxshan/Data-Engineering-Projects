@@ -1,3 +1,4 @@
+<a id="readme-top"></a>
 # Acquiring and Processing Information on the World's Largest Banks
 
 <p align="center">
@@ -37,7 +38,7 @@ At this stage, you should now make the first log entry from the table above.
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="600px" alt="image" src="images/Task_1_log_function.png" /></kbd>
 
-### Task 2: Extraction of data
+### Task 2: Extraction of data <a href="#readme-top">🔝</a>
 Extract the tabular information from the given URL under the heading 'By market capitalization' and save it to a dataframe.
 ```
 https://web.archive.org/web/20230908091635/https://en.wikipedia.org/wiki/List_of_largest_banks
@@ -63,7 +64,7 @@ Take a screenshot of the code, as created for the `extract()` function.
 Take a screenshot of the output, as obtained upon execution in the terminal.  
 <kbd><img width="600px" alt="image" src="images/Task_2c_extract.png" /></kbd>
 
-### Task 3: Transformation of data
+### Task 3: Transformation of data <a href="#readme-top">🔝</a>
 Transform the dataframe by adding columns for Market Capitalization in GBP, EUR and INR, rounded to 2 decimal places, based on the exchange rate information shared as a CSV file.
 a. Write the code for a function `transform()` to perform the said task.
 b. Execute a function call to `transform()` and verify the output.  
@@ -80,17 +81,17 @@ Take a screenshot of the code, as created for the `transform()` function.
 Take a snapshot of the output.  
 <kbd><img width="700px" alt="image" src="images/Task_3b_tranform.png" /></kbd>
 
-### Task 4: Loading to CSV
+### Task 4: Loading to CSV <a href="#readme-top">🔝</a>
 Load the transformed dataframe to an output CSV file. Write a function `load_to_csv()`, execute a function call and verify the output.  
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="600px" alt="image" src="images/Task_4_CSV.png" /></kbd>
 
-### Task 5: Loading to Database
+### Task 5: Loading to Database <a href="#readme-top">🔝</a>
 Load the transformed dataframe to an SQL database server as a table. Write a function `load_to_db()`, execute a function call and verify the output.  
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="600px" alt="image" src="images/Task_4_5_save_file.png" /></kbd>
 
-### Task 6: Function to Run queries on Database
+### Task 6: Function to Run queries on Database <a href="#readme-top">🔝</a>
 Run queries on the database table. Write a function `run_queries()`, execute a given set of queries and verify the output.  
 Execute 3 function calls using the queries as mentioned below.  
 1. Print the contents of the entire table.
@@ -108,7 +109,7 @@ Execute 3 function calls using the queries as mentioned below.
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="800px" alt="image" src="images/Task_6_SQL.png" /></kbd>
 
-### Task 7: Verify log entries
+### Task 7: Verify log entries <a href="#readme-top">🔝</a>
 Verify that the log entries have been completed at all stages by checking the contents of the file `code_log.txt`.  
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="900px" alt="image" src="images/Task_7_log_content.png" /></kbd>
