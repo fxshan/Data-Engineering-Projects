@@ -66,3 +66,11 @@ $~~~~~~~~~~~$
 - Implemented data import/export pipelines, indexing strategies, and aggregation queries across both databases.
 - Enabled analysts to efficiently access and query distributed datasets by standardizing data structures and optimizing retrieval performance.  
 $~~~~~~~~~~~$
+
+### Apache Spark Data Processing Project
+- Developed a Spark SQL–based data pipeline to process HR employee data from CSV files.
+- Built structured DataFrames with custom schemas, created temporary views, and executed SQL queries for data transformation and analysis.
+- Implemented aggregations, filtering, joins, and salary/age analytics to extract actionable insights.
+$~~~~~~~~~~~$
+
+
