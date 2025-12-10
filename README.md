@@ -64,6 +64,12 @@ $~~~~~~~~~~~$
 - Enabled analysts to efficiently access and query distributed datasets by standardizing data structures and optimizing retrieval performance.  
 $~~~~~~~~~~~$
 
+### BI Dashboard Project
+- Designed an interactive analytics dashboard for SwiftAuto Traders to evaluate car sales performance and dealer profitability.
+- Built KPIs and visualizations—including profit metrics, sales trends, dealer comparisons, recall analysis, customer sentiment, and monthly performance—in Cognos.
+- Delivered a comprehensive report enabling data-driven insights for regional management.
+$~~~~~~~~~~~$
+
 ### Apache Spark Data Processing Project
 - Developed a Spark SQL–based data pipeline to process HR employee data from CSV files.
 - Built structured DataFrames with custom schemas, created temporary views, and executed SQL queries for data transformation and analysis.
