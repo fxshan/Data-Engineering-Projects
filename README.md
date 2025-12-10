@@ -5,31 +5,21 @@
   <a href="https://github.com/fxshan/Data-Engineering-Projects.git">
     <img src="images/multilogos.png" alt="Projects" width="1000px">
   </a>
-
   <h1>Data Engineering Projects</h1>
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+  <img src="https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" /><br>
+  <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" /><br>  
+  <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" />
+  <img src="https://img.shields.io/badge/Apache%20Spark-FDEE21?style=flat-square&logo=apachespark&logoColor=black" />
+  <img src="" />
+
+  
 </div>
 
 This repository is a collection of data engineering projects covering a variety of topics, including Python, SQL, Shell scripting, ETL, Airflow, EDW, DBA tasks, NoSQL, BI solutions, and Big Data with Hadoop and Spark.  
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ul>
-    <li>
-      <a href="#data-structures">Project Recap</a>
-      <ol>
-        <li><a href="#python">Python Project</a></li>
-        <li><a href="#rdbms">RDBMS Project</a></li>
-        <li><a href="#shell">Linux Shell Scripting Project</a></li>
-        <li><a href="#dba">Database Administration Project</a></li>
-        <li><a href="#etl">ETL Airflow Project</a></li>
-        <li><a href="#edw">EDW Project</a></li>
-        <li><a href="#nosql">NoSQL Project</a></li>
-        <li><a href="#bigdata">Big Data with Hadoop & Spark</a></li>
-      </ol>
-    </li>
-  </ul>
-</details>
 
 ## Project Recap
 ### Python Project <a href="#readme-top">🔝</a>
