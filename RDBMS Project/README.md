@@ -2,7 +2,7 @@
 
 <div align="center">
   <h1>Database Design and Implementation</h1>  
-  <img src="https://skillicons.dev/icons?i=mysql,postgres" />   
+  <img src="https://skillicons.dev/icons?i=postgres,mysql" />   
 </div>
 
 ## Project Scenario
