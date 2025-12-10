@@ -46,3 +46,8 @@ This repository is a collection of data engineering projects covering a variety 
 - Designed and deployed an Apache Airflow DAG to extract multi-format toll-traffic data (CSV, TSV, fixed-width) from diverse highway operators.
 - Implemented data consolidation and transformation workflows using BashOperator tasks.
 - Orchestrated a full ETL pipeline with DAG submission, triggering, task dependency management, and monitoring.
+
+### PostgreSQL Data Warehouse Project
+- Designed and implemented a star-schema data warehouse for a national solid-waste management company, modeling date, waste type, and zone dimensions with a large fact table of truck trips.
+- Loaded dimensional and fact data into PostgreSQL and optimized analytical queries using GROUPING SETS, ROLLUP, CUBE, and materialized views.
+- Enabled multi-city reporting on annual, monthly, quarterly, and per-truck waste-collection metrics.
