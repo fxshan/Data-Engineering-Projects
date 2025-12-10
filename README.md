@@ -41,4 +41,7 @@ This repository is a collection of data engineering projects covering a variety 
 - Performed user/role management, privilege grants, backup & recovery operations, and optimized query performance through indexing and storage-engine analysis.
 - Built views, restored datasets, and benchmarked query improvements to ensure reliable, efficient data access across systems.
 
-
+### Apache Airflow ETL Pipeline Project
+- Designed and deployed an Apache Airflow DAG to extract multi-format toll-traffic data (CSV, TSV, fixed-width) from diverse highway operators.
+- Implemented data consolidation and transformation workflows using BashOperator tasks.
+- Orchestrated a full ETL pipeline with DAG submission, triggering, task dependency management, and monitoring.
