@@ -66,8 +66,8 @@ $~~~~~~~~~~~$
 
 ### BI Dashboard Project
 - Designed an interactive analytics dashboard for SwiftAuto Traders to evaluate car sales performance and dealer profitability.
-- Built KPIs and visualizations—including profit metrics, sales trends, dealer comparisons, recall analysis, customer sentiment, and monthly performance—in Cognos.
-- Delivered a comprehensive report enabling data-driven insights for regional management.
+- Built KPIs and visualizations including profit metrics, sales trends, dealer comparisons, recall analysis, customer sentiment, and monthly performance in IBM Cognos Analytics.
+- Delivered a comprehensive report enabling data-driven insights for regional management.  
 $~~~~~~~~~~~$
 
 ### Apache Spark Data Processing Project
