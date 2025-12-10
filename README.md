@@ -20,7 +20,7 @@ This repository is a collection of data engineering projects covering a variety 
       <ol>
         <li><a href="#python">Python Project</a></li>
         <li><a href="#sql">RDBMS Project</a></li>
-        <li><a href="#shell">Shell Project</a></li>
+        <li><a href="#shell">Linux Shell Scripting Project</a></li>
         <li><a href="#dba">DBA Project</a></li>
         <li><a href="#etl">ETL Airflow Project</a></li>
         <li><a href="#edw">EDW Project</a></li>
@@ -40,5 +40,11 @@ This repository is a collection of data engineering projects covering a variety 
 - Designed a centralized relational database for a nationwide coffee shop expansion by integrating data from POS systems, supplier databases, spreadsheets, and CRM exports.
 - Built normalized schemas, ERDs, and SQL database objects across PostgreSQL and MySQL.
 - Delivered reusable views and materialized views to support executive analytics and operational reporting.
+
+### Linux Shell Scripting Project <a href="#readme-top">🔝</a>
+- Developed an automated Linux backup script (backup.sh) to detect and archive encrypted password files updated within the last 24 hours.
+- Implemented timestamp-based file scanning, compression logic, and safe path handling using Bash.
+- Scheduled the script via cron for daily execution, improving reliability and eliminating manual backup errors.
+
 
 
