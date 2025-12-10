@@ -19,7 +19,7 @@ This repository is a collection of data engineering projects covering a variety 
       <a href="#data-structures">Project Recap</a>
       <ol>
         <li><a href="#python">Python Project</a></li>
-        <li><a href="#sql">SQL Project</a></li>
+        <li><a href="#sql">RDBMS Project</a></li>
         <li><a href="#shell">Shell Project</a></li>
         <li><a href="#dba">DBA Project</a></li>
         <li><a href="#etl">ETL Airflow Project</a></li>
@@ -36,6 +36,9 @@ This repository is a collection of data engineering projects covering a variety 
 - Extracted and transformed global banking market-cap data into multiple currencies (USD/GBP/EUR/INR) using Python and Pandas.
 - Built automated ETL pipelines with logging, stored outputs in CSV and SQL tables, and implemented database queries to serve localized market-cap values for regional teams.  
 
-
+### RDBMS Project <a href="#readme-top">🔝</a>
+- Designed a centralized relational database for a nationwide coffee shop expansion by integrating data from POS systems, supplier databases, spreadsheets, and CRM exports.
+- Built normalized schemas, ERDs, and SQL database objects across PostgreSQL and MySQL.
+- Delivered reusable views and materialized views to support executive analytics and operational reporting.
 
 
