@@ -1,10 +1,12 @@
 <a id="readme-top"></a>
-# Acquiring and Processing Information on the World's Largest Banks
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py" />
-  <img src="https://skillicons.dev/icons?i=sqlite" />
-</p>
+<div align="center">
+  <h1>Acquiring and Processing Information on the World's Largest Banks</h1>  
+  <p>
+    <img src="https://skillicons.dev/icons?i=py" />
+    <img src="https://skillicons.dev/icons?i=sqlite" />
+  </p>  
+</div>
 
 ## Project Scenario
 You have been hired as a data engineer by research organization. 
