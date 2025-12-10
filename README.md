@@ -22,21 +22,21 @@
 This repository is a collection of data engineering projects covering a variety of topics, including Python, SQL, Shell scripting, ETL, Airflow, EDW, DBA tasks, NoSQL, BI solutions, and Big Data with Hadoop and Spark.  
 
 ## Project Recap
-### Python Project <a href="#readme-top">🔝</a>
+### Python Project 
 - Extracted and transformed global banking market-cap data into multiple currencies (USD/GBP/EUR/INR) using Python and Pandas.
 - Built automated ETL pipelines with logging, stored outputs in CSV and SQL tables, and implemented database queries to serve localized market-cap values for regional teams.  
 
-### RDBMS Project <a href="#readme-top">🔝</a>
+### RDBMS Project
 - Designed a centralized relational database for a nationwide coffee shop expansion by integrating data from POS systems, supplier databases, spreadsheets, and CRM exports.
 - Built normalized schemas, ERDs, and SQL database objects across PostgreSQL and MySQL.
 - Delivered reusable views and materialized views to support executive analytics and operational reporting.
 
-### Linux Shell Scripting Project <a href="#readme-top">🔝</a>
+### Linux Shell Scripting Project 
 - Developed an automated Linux backup script (backup.sh) to detect and archive encrypted password files updated within the last 24 hours.
 - Implemented timestamp-based file scanning, compression logic, and safe path handling using Bash.
 - Scheduled the script via cron for daily execution, improving reliability and eliminating manual backup errors.
 
-### Database Administration Project <a href="#readme-top">🔝</a>
+### Database Administration Project 
 - Designed, configured, and administered multi-platform database environments using PostgreSQL, MySQL, and Datasette.
 - Performed user/role management, privilege grants, backup & recovery operations, and optimized query performance through indexing and storage-engine analysis.
 - Built views, restored datasets, and benchmarked query improvements to ensure reliable, efficient data access across systems.
