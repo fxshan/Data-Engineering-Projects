@@ -21,7 +21,7 @@ This repository is a collection of data engineering projects covering a variety 
         <li><a href="#python">Python Project</a></li>
         <li><a href="#sql">RDBMS Project</a></li>
         <li><a href="#shell">Linux Shell Scripting Project</a></li>
-        <li><a href="#dba">DBA Project</a></li>
+        <li><a href="#dba">ulti-Database Administration & Optimization Project</a></li>
         <li><a href="#etl">ETL Airflow Project</a></li>
         <li><a href="#edw">EDW Project</a></li>
         <li><a href="#nosql">NoSQL Project</a></li>
@@ -46,5 +46,9 @@ This repository is a collection of data engineering projects covering a variety 
 - Implemented timestamp-based file scanning, compression logic, and safe path handling using Bash.
 - Scheduled the script via cron for daily execution, improving reliability and eliminating manual backup errors.
 
+### Multi-Database Administration & Optimization Project <a href="#readme-top">🔝</a>
+- Designed, configured, and administered multi-platform database environments using PostgreSQL, MySQL, and Datasette.
+- Performed user/role management, privilege grants, backup & recovery operations, and optimized query performance through indexing and storage-engine analysis.
+- Built views, restored datasets, and benchmarked query improvements to ensure reliable, efficient data access across systems.
 
 
