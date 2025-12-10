@@ -1,8 +1,7 @@
-<a id="readme-top"></a>
-
 <div align="center">
   <h1>Database Design and Implementation</h1>  
-  <img src="https://skillicons.dev/icons?i=postgres,mysql" />   
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" />
 </div>
 
 ## Project Scenario
@@ -20,7 +19,7 @@ The first step when designing a new database is to review any existing data and 
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="200px" alt="image" src="images/Task1.png" /></kbd>
 
-### Task 2: Identify attributes <a href="#readme-top">🔝</a>
+### Task 2: Identify attributes 
 In this task, you will identify the attributes of one of the entities you plan to create.  
 1. Using the information from the sample data in the image from Task 1, identify the entity's attributes that will store the sales transaction data.
 2. Make a list of the sales transaction attributes that you identified.  
@@ -28,7 +27,7 @@ In this task, you will identify the attributes of one of the entities you plan t
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="300px" alt="image" src="images/Task2.png" /></kbd>
 
-### Task 3: Create an ERD <a href="#readme-top">🔝</a>
+### Task 3: Create an ERD 
 Now that you have defined some of your attributes and entities, you can determine the tables and columns for them and create an entity-relationship diagram (ERD). Use pgAdmin to complete this task:  
 1. Create a new database named `COFFEE`, view the schemas in the new `COFFEE` database, and then start a new ERD project.
 2. Add a table to the ERD for the sale transactions entity using the information in the following table. Consider the naming convention to use so that your colleagues can understand your data and ensure that the names are valid in other RDBMS. Use the sample data shown in the image in Task 1 to determine appropriate data types for each column.  
@@ -43,7 +42,7 @@ Now that you have defined some of your attributes and entities, you can determin
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="600px" alt="image" src="images/Task3B.png" /></kbd>
 
-### Task 4: Normalize tables <a href="#readme-top">🔝</a>
+### Task 4: Normalize tables 
 When reviewing your ERD, you notice it does not conform to the second normal form. In this task, you will normalize some of the tables within the database.  
 1. Review the data in the sales transaction table. Note that the transaction id column does not contain unique values because some transactions include multiple products.
 2. Determine which columns should be stored in a separate table to remove the repeating rows and to put this table into second normal form.
@@ -59,7 +58,7 @@ When reviewing your ERD, you notice it does not conform to the second normal for
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="500px" alt="image" src="images/Task4B.png" /></kbd>
 
-### Task 5: Define keys and relationships <a href="#readme-top">🔝</a>
+### Task 5: Define keys and relationships 
 After normalizing your tables, you can define their primary keys and relationships between the tables in your ERD.  
 1. Identify an appropriate column in each table to be a primary key and create the primary keys in the tables in your entity-relationship diagram (ERD).
 
@@ -74,7 +73,7 @@ After normalizing your tables, you can define their primary keys and relationshi
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="550px" alt="image" src="images/Task5B.png" /></kbd>
 
-### Task 6: Create database objects by generating and running the SQL script from the ERD tool <a href="#readme-top">🔝</a>
+### Task 6: Create database objects by generating and running the SQL script from the ERD tool 
 Now that your design is complete, you will generate an SQL script from your ERD, which you can use to create your database schema. For this project, you will then use a given SQL script to ensure that you can load the sample data into the schema. Finally, you will load the existing data from various sources into your new database schema.  
 1. Use the Generate SQL functionality in the ERD tool to create an SQL script from your ERD.
 2. Download the following `GeneratedScript.sql`.
@@ -90,7 +89,7 @@ Now that your design is complete, you will generate an SQL script from your ERD,
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="550px" alt="image" src="images/Task6B.png" /></kbd>
 
-### Task 7: Create a view and export the data <a href="#readme-top">🔝</a>
+### Task 7: Create a view and export the data 
 The external payroll company has requested a list of employees and the locations at which they work. This list should not include the CEO or CFO who owns the company. In this task, you will create a view in your PostgreSQL database that returns this information and export the results to a CSV file.  
 In your `COFFEE` database, create a new view named `staff_locations_view` using the following SQL, then save the query results to a file named `staff_locations_view.csv`.
 ```SQL
@@ -105,7 +104,7 @@ WHERE "position" NOT IN ('CEO', 'CFO');
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="700px" alt="image" src="images/Task7.png" /></kbd>
 
-### Task 8: Create a materialized view and export the data <a href="#readme-top">🔝</a>
+### Task 8: Create a materialized view and export the data 
 A marketing consultant requires access to your product data in their MySQL database for a marketing campaign. You will create a materialized view in your PostgreSQL database that returns this information and export the results to a CSV file.  
 In your `COFFEE` database, create a new materialized view named `product_info_m-view` using the following SQL, then save the query results to a file named `product_info_m-view.csv`.
 ```SQL
@@ -118,14 +117,14 @@ ON product.product_type_id = product_type.product_type_id;
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="750px" alt="image" src="images/Task8.png" /></kbd>
 
-### Task 9: Import staff_location data into a MySQL database <a href="#readme-top">🔝</a>
+### Task 9: Import staff_location data into a MySQL database 
 The external payroll company has asked you to upload the staff location information to their MySQL database.   
 In phpMyAdmin, create a new database named `STAFF_LOCATIONS`, then import the location information saved in the `staff_locations_view.csv` file you exported from the view you created in Task 7.
 
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="750px" alt="image" src="images/Task9.png" /></kbd>
 
-### Task 10: Import coffee_shop_products data into a MySQL database <a href="#readme-top">🔝</a>
+### Task 10: Import coffee_shop_products data into a MySQL database 
 The marketing consultant has asked you to upload the product information to their MySQL database.  
 In phpMyAdmin, create a new database named `coffee_shop_products`, and then import the product information saved in the `product_info_m-view.csv` file from your materialized view created in Task 8 into a new table in the `coffee_shop_products` database.
 
