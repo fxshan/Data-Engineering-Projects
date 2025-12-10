@@ -15,14 +15,11 @@
   <img src="https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white" /><br>
   <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" />
-  <img src="https://img.shields.io/badge/Apache%20Spark-FDEE21?style=flat-square&logo=apachespark&logoColor=black" />
-  <img src="" />
-
-  
+  <img src="https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black" />  
 </div>
 <br />
 
-This repository is a collection of data engineering projects covering a variety of topics, including Python, SQL, Shell scripting, ETL, Airflow, EDW, DBA tasks, NoSQL, BI solutions, and Big Data with Hadoop and Spark.  
+This repository contains a collection of data engineering projects spanning Python, SQL, Shell scripting, ETL pipelines, Airflow orchestration, EDW design, DBA tasks, NoSQL databases, BI solutions, and Big Data processing with Hadoop and Spark. 
 
 ## Project Recap
 
