@@ -2,7 +2,7 @@
 
 <div align="center">
   <h1>Linux Commands and Shell Scripting</h1>  
-  <img src="https://skillicons.dev/icons?i=powershell" />   
+  <img src="https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" />
 </div>
 
 ## Project Scenario
@@ -23,13 +23,13 @@ Display the values of the two command line arguments in the terminal.
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="450px" alt="image" src="images/02-Display_Values.png" /></kbd>
 
-### Task 3 <a href="#readme-top">🔝</a>
+### Task 3 
 Define a variable called `currentTS` as the current timestamp, expressed in seconds.
 
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="200px" alt="image" src="images/03-CurrentTS.png" /></kbd>
 
-### Task 4 <a href="#readme-top">🔝</a>
+### Task 4 
 Define a variable called `backupFileName` to store the name of the archived and compressed backup file that the script will create.  
 > **NOTE**  
 > The variable `backupFileName` should have the value `"backup-[$currentTS].tar.gz"`  
@@ -38,13 +38,13 @@ Define a variable called `backupFileName` to store the name of the archived and 
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="380px" alt="image" src="images/04-Set_Value.png" /></kbd>
 
-### Task 5 <a href="#readme-top">🔝</a>
+### Task 5 
 Define a variable called `origAbsPath` with the absolute path of the current directory as the variable's value.
 
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="190px" alt="image" src="images/05-Define_Variable.png" /></kbd>
 
-### Task 6 <a href="#readme-top">🔝</a>
+### Task 6 
 Define a variable called `destAbsPath` whose value equals the absolute path of the destination directory.
 
 > **NOTE**  
@@ -53,26 +53,26 @@ Define a variable called `destAbsPath` whose value equals the absolute path of t
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="350px" alt="image" src="images/06-Define_Variable.png" /></kbd>
 
-### Task 7 <a href="#readme-top">🔝</a>
+### Task 7 
 Change directories from the current working directory to the target directory `targetDirectory`.
 
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="320px" alt="image" src="images/07-Change_Directory.png" /></kbd>
 
-### Task 8 <a href="#readme-top">🔝</a>
+### Task 8 
 You need to find files that have been updated within the past 24 hours. This means you need to find all files whose last-modified date was 24 hours ago or less.  
 To do make this easier, define a numerical variable called `yesterdayTS` as the timestamp (in seconds) 24 hours prior to the current timestamp, `currentTS`.
 
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="390px" alt="image" src="images/08-YesterdayTS.png" /></kbd>
 
-### Task 9 <a href="#readme-top">🔝</a>
+### Task 9 
 In the for loop, use the wildcard to iterate over all files and directories in the current folder.
 
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="250px" alt="image" src="images/09-List_AllFilesandDirectoriess.png" /></kbd>
 
-### Task 10 <a href="#readme-top">🔝</a>
+### Task 10
 1. Inside the `for` loop, you want to check whether the `$file` was modified within the last 24 hours.
 
 > **NOTE**
@@ -87,7 +87,7 @@ In the for loop, use the wildcard to iterate over all files and directories in t
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="400px" alt="image" src="images/10-IF_Statement.png" /></kbd>
 
-### Task 11 <a href="#readme-top">🔝</a>
+### Task 11 
 1. In the `if-then` statement, add the `$file` that was updated in the past 24-hours to the `toBackup` array.
 2. Since much of this wasn’t covered in the course, you may copy the code below and place after the `then` statement for this task:
   ```bash
@@ -97,28 +97,28 @@ In the for loop, use the wildcard to iterate over all files and directories in t
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="200px" alt="image" src="images/11-Add_File.png" /></kbd>
 
-### Task 12 <a href="#readme-top">🔝</a>
+### Task 12 
 After the for loop, compress and archive the files, using the `$toBackup` array of filenames, to a file with the name `backupFileName`.
 
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="350px" alt="image" src="images/12-Create_Backup.png" /></kbd>
 
-### Task 13 <a href="#readme-top">🔝</a>
+### Task 13 
 Now the file `$backupFileName` is created in the current working directory.
 
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="350px" alt="image" src="images/13-Move_Backup.png" /></kbd>
 
-### Task 14 <a href="#readme-top">🔝</a>
+### Task 14 
 Save the current working file `backup.sh`.
 
-### Task 15 <a href="#readme-top">🔝</a>
+### Task 15 
 Make the `backup.sh` executable using `chmod` command.
 
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="550px" alt="image" src="images/15-executable.png" /></kbd>
 
-### Task 16 <a href="#readme-top">🔝</a>
+### Task 16 
 1. Download the following `.zip` file with the `wget` command:
   ```bash
   wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-LX0117EN-SkillsNetwork/labs/Final%20Project/important-documents.zip
@@ -139,7 +139,7 @@ Make the `backup.sh` executable using `chmod` command.
 :ballot_box_with_check: ***Solution:***  
 <kbd><img width="590px" alt="image" src="images/16-backup-complete.png" /></kbd>
 
-### Task 17 <a href="#readme-top">🔝</a>
+### Task 17 
 1. Copy the `backup.sh` script into the `/usr/local/bin/` directory. (Do not use `mv`.)
 2. Test the cronjob to see if the backup script is getting triggered by scheduling it for every 1 minute.
 3. Using crontab, schedule your `/usr/local/bin/backup.sh` script to backup the `important-documents` folder every 24 hours to the directory `/home/project`.
