@@ -73,7 +73,11 @@ $~~~~~~~~~~~$
 ### Apache Spark Data Processing Project
 - Developed a Spark SQL–based data pipeline to process HR employee data from CSV files.
 - Built structured DataFrames with custom schemas, created temporary views, and executed SQL queries for data transformation and analysis.
-- Implemented aggregations, filtering, joins, and salary/age analytics to extract actionable insights.
+- Implemented aggregations, filtering, joins, and salary/age analytics to extract actionable insights.  
 $~~~~~~~~~~~$
 
-
+### ML with Apache Spark Project
+- Built an end-to-end ETL workflow for the NASA Airfoil Self Noise dataset, including data ingestion, cleaning, transformation, and parquet-based storage.
+- Developed a scalable ML pipeline integrated into the data processing workflow and evaluated regression model outputs.
+- Persisted the trained model for downstream use and verified reliable model loading within the data platform.  
+$~~~~~~~~~~~$
